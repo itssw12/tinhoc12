@@ -1,15 +1,25 @@
-<html>
-  <head>
-    <meta charset="utf-8">
-    <style>
-      h2 { color: tomato;}
-      h1 { color: red; text-align: center; }
-      td {padding: 20;}
-    </style>
-  </head>
-  <body>
-    <h1> GIỚI THIỆU NGÀNH NGHỀ YÊU THÍCH </h1>
-<tr> 
- <td width=30% style="text-align: center; vertical-align: top;">     
- </td>
-</tr>
+<DOCTYPE html>
+<html> 
+<head>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="../style.css">
+      <style>
+            h2 { color: crimson; }
+            h1 { color: red; text-align: center;} 
+            td { padding: 20}
+      </style>
+ </head>
+ <body>
+   <h1 style ="color : blue; text-align: center; " > GIỚI THIỆU NGÀNH NGHỀ MƠ ƯỚC  </h1> 
+      <tr> 
+        <td width=30% style="text-align: center; vertical-align: top;">     
+        </td>
+      </tr>
+<ol type="A">
+      <li>TÊN NGÀNH</li> 
+         <ul class=noidung>
+           <li>Quản trị sự kiện</li>
+           
+    
+         </ul>
+          
