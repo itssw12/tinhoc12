@@ -1,13 +1,25 @@
-.tieude {
- color: tomato;
- font-weight: bold;
- font-size: 25pt;
+.conterner{
+  display:flex;
+  flex-direction:column;
+  height:100vh
 }
 
-.noidung{
-  color: black;
-  font-style: normal;
-  font-size: 16pt;
+.header{
+  flex:15%
+  background-color:lightblue;
 }
 
+.menu{
+  flex:5%
+  background-color:darkblue;
+}
 
+.content{
+  flex:70%
+  background-color:white;
+}
+
+.footer{
+  flex:10%
+  background-color:lightblue;
+}
