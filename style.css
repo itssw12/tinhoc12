@@ -5,12 +5,12 @@
 }
 
 .header{
-  flex:15%
+  flex:15%;
   background-color:lightblue;
 }
 
 .menu{
-  flex:5%
+  flex:5%;
   background-color:darkblue;
 }
 
@@ -24,18 +24,18 @@
    color:back;
 }
 .content{
-  flex:70%
+  flex:70%;
   background-color:white;
 }
 
 .content iframe{
-   flex:1
-   border:none
+   flex:1;
+   border:none;
    width:100%;
    height:100%;
 }
 
 .footer{
-  flex:10%
+  flex:10%;
   background-color:lightblue;
 }
