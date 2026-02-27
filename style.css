@@ -14,6 +14,15 @@
   background-color:darkblue;
 }
 
+.menu a{
+   padding:15px 20px;
+   color:pink;
+}
+
+.menu hover{
+   background-color:lightblue;
+   color:back;
+}
 .content{
   flex:70%
   background-color:white;
