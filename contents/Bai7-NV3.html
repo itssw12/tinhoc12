@@ -10,4 +10,18 @@
     <p>Chúng tôi xin ghi nhận ý kiến của bạn...</p>
     <button onclick="window.history.back()">Quay lại</button>
   </div>
+  
+
+    <script>
+        let pp = new URLSearchParams(window.location.search);
+        let ten = pp.get("ten");
+        let dc = pp.get("diachi");
+        let yk = pp.get("comment");
+
+        document.getElementById("kq").innerHTML = 
+            "Cảm ơn bạn **" + ten + "**, email: **" + dc + "** đã góp ý.<br><br>" +
+            "Chúng tôi xin ghi nhận ý kiến của bạn như sau:<br>" + yk;
+    </script>
+      
 </body>
+</html>
