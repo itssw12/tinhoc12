@@ -10,4 +10,14 @@
     <p>Danh sách thi đấu sẽ được công bố trong vài ngày tới...</p>
     <button onclick="window.history.back()">Quay lại</button>
   </div>
+
+   <script>
+        let pp = new URLSearchParams(window.location.search);
+        let ten = pp.get("txtTen");
+        let dc = pp.get("txtEmail");
+      
+        document.getElementById("noi-dung-cam-on").innerHTML = 
+            "Chào <b>" + ten + "</b> (Email: " + dc + "),<br>" + 
+            "Chúng tôi đã nhận được thông tin đăng ký của bạn.";
+    </script>
 </body>
